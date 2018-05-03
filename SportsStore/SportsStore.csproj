@@ -84,6 +84,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="authMiddleware.js" />
     <Content Include="data.js" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
