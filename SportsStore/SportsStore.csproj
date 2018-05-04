@@ -157,6 +157,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\app\model\model.module.ts" />
     <TypeScriptCompile Include="src\app\model\product.model.ts" />
     <TypeScriptCompile Include="src\app\model\product.repository.ts" />
     <TypeScriptCompile Include="src\app\model\static.datasource.ts" />
