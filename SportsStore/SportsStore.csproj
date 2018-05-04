@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="package.json" />
     <None Include="packages.config" />
+    <Content Include="src\app\store\store.component.html" />
     <Content Include="src\assets\.gitkeep" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
@@ -161,6 +162,7 @@
     <TypeScriptCompile Include="src\app\model\product.model.ts" />
     <TypeScriptCompile Include="src\app\model\product.repository.ts" />
     <TypeScriptCompile Include="src\app\model\static.datasource.ts" />
+    <TypeScriptCompile Include="src\app\store\store.component.ts" />
     <TypeScriptCompile Include="src\Scripts\index.d.ts" />
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
@@ -177,7 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\app\admin\" />
-    <Folder Include="src\app\store\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
