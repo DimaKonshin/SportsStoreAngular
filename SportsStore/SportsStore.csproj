@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\app\model\product.model.ts" />
+    <TypeScriptCompile Include="src\app\model\product.repository.ts" />
     <TypeScriptCompile Include="src\app\model\static.datasource.ts" />
     <TypeScriptCompile Include="src\Scripts\index.d.ts" />
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
